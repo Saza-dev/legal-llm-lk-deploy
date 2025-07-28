@@ -21,6 +21,8 @@ transformers
 # PDF + DOCX document processing
 PyMuPDF           # for PDF (used by PyPDFLoader)
 python-docx       # for Word output
+pypdf
+
 
 # Optional: Torch for sentence-transformers backend
 torch
