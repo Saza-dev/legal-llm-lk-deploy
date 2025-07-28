@@ -1,28 +1,26 @@
-# Core Web App
+# Core app
 streamlit
 streamlit-option-menu
+python-dotenv
 
 # LangChain ecosystem
 langchain
 langchain-core
 langchain-community
 langchain-groq
-langchain-chroma
 langchain-huggingface
 
-# Embeddings & LLMs
+# Vector store (FAISS)
+faiss-cpu
+# FAISS is used via langchain-community; the CPU version is enough unless using GPU
+
+# Embeddings & Transformers
 sentence-transformers
 transformers
 
-# ChromaDB and Vector DB
-chromadb
+# PDF + DOCX document processing
+PyMuPDF           # for PDF (used by PyPDFLoader)
+python-docx       # for Word output
 
-# PDF & Word processing
-python-docx
-PyMuPDF  # used internally by langchain.document_loaders.PyPDFLoader
-
-# Environment
-python-dotenv
-
-# Others (Safe installs for HuggingFace/LLMs)
+# Optional: Torch for sentence-transformers backend
 torch
