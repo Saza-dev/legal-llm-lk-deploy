@@ -26,4 +26,3 @@ python-dotenv
 
 # Others (Safe installs for HuggingFace/LLMs)
 torch
-tensorflow
