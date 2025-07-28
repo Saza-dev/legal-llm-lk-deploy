@@ -1,0 +1,29 @@
+# Core Web App
+streamlit
+streamlit-option-menu
+
+# LangChain ecosystem
+langchain
+langchain-core
+langchain-community
+langchain-groq
+langchain-chroma
+langchain-huggingface
+
+# Embeddings & LLMs
+sentence-transformers
+transformers
+
+# ChromaDB and Vector DB
+chromadb
+
+# PDF & Word processing
+python-docx
+PyMuPDF  # used internally by langchain.document_loaders.PyPDFLoader
+
+# Environment
+python-dotenv
+
+# Others (Safe installs for HuggingFace/LLMs)
+torch
+tensorflow
